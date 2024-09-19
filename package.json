@@ -1,7 +1,17 @@
 {
   "name": "vanilla-basic",
   "version": "1.0.0",
-  "scripts": { 
+  "scripts": {
     "start": "sirv ./src public --cors --single --no-clear --port 8000"
+  },
+  "dependencies": {
+    "eslint-friendly-formatter": "^4.0.1",
+    "express": "^4.21.0",
+    "nodemon": "^3.1.5",
+    "prettier": "^3.3.3"
+  },
+  "devDependencies": {
+    "eslint": "^9.10.0",
+    "husky": "^9.1.6"
   }
 }

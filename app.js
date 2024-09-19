@@ -1,9 +1,10 @@
 /**
  * File: app.js
  * Description: File responsible for running the application
- * Data: 09/18/2024
- * Author: ek sbs <Twitter: @eksbs>
+ * Data: 05/04/2022
+ * Author: Glaucia Lemos <Twitter: @glaucia_lemos86>
  */
+
 
 const express = require('express');
 
@@ -15,4 +16,4 @@ app.get('/', (req, res) => {
   res.send('App - Star Wars Intro');
 });
 
-app.listen(3000, () => console.log('Application is running on port 3000!')
+app.listen(3000, () => console.log('Application is running on port 3000!'));
